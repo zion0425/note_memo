@@ -1,0 +1,18 @@
+<html lang = "ko">
+  <head>
+      <meta charset="utf-8"/>
+      <title><%= title %></title>
+      <link rel="stylesheet" type="text/css" href="/style.css"/>
+  </head>
+  <body>
+      <h1>notepad</h1>
+      <a href="/write">글쓰기</a><br/>
+      <% if(memoList.length > 0){
+        for ( var i = 0; i < memoList.length; i++){ %>
+          <ul>
+            <li>title : <%= memoList[i].title %> </li>
+            <li>content : <%= memoList[i].content %> </li>
+          </ul>
+      <% }}else{} %>
+  </body>
+</html>
