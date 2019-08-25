@@ -10,7 +10,7 @@ Libraries used:
 - moment
 - mongoose
 - morgan
-~~moment-timezone~~
+- ~~moment-timezone~~
 
 ## ⚠️🥁🎺 PLEASE READ: BREAKING CHANGES FOR 1.0 🎺🥁⚠️
 
