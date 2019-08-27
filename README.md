@@ -19,3 +19,6 @@ It is not decided yet
 
 memo 1.0.0 : 209.08.25
 Simple memo
+
+used
+Mongo Atlas + nodejs  
